@@ -1,5 +1,5 @@
 export class ApiRouteBuilder {
-    public static BaseUrl: ApiRouteBuilder = new ApiRouteBuilder("https://aggregator.stk8s.66bit.ru//back/api");
+    public static BaseUrl: ApiRouteBuilder = new ApiRouteBuilder("https://aggregator.stk8s.66bit.ru/back/api");
 
     private static AccountsBase: ApiRouteBuilder = ApiRouteBuilder.BaseUrl.With("Accounts");
     public static Accounts = {
