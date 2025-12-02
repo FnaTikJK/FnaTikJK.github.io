@@ -1,20 +1,20 @@
 import styles from "./page.module.css";
-import { Header } from "@/components/Header";
-import Header2 from "@/components/HeaderV2";
-import {Heading, SlideFade} from "@chakra-ui/react";
+import Header from "@/components/Header";
+import Title from "@/components/Title";
+import About from "@/components/About";
+import Skills from "@/components/Skills";
+import Projects from "@/components/Projects";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
     <div className={styles.page}>
-        <Header2 />
-        <SlideFade in transition={{enter: {duration: 0.9}}}>
-            <Heading size={"4xl"} color={"white"}>
-                Fullstack developer & DevOps
-            </Heading>
-        </SlideFade >
-        <div>
-            rtstre
-        </div>
+        <Header />
+        <Title />
+        <About />
+        <Skills />
+        <Projects />
+        <Footer />
     </div>
   );
 }
