@@ -1,5 +1,5 @@
 ﻿'use client'
-import { Box, Flex, Button, Spacer, Container } from '@chakra-ui/react';
+import {Box, Flex, Button, Spacer, Container, Link} from '@chakra-ui/react';
 import React from 'react';
 
 const Header = () => {
@@ -41,12 +41,16 @@ const Header = () => {
                     {/* 5. Правая группа кнопок
           */}
                     <Flex gap={3}> {/* gap={3} добавляет отступ между кнопками */}
-                        <Button colorScheme="whiteAlpha" variant="ghost">
-                            Скиллы
-                        </Button>
-                        <Button colorScheme="whiteAlpha" variant="ghost">
-                            Проекты
-                        </Button>
+                        <Link href={"#skills"}>
+                            <Button colorScheme="whiteAlpha" variant="ghost">
+                                Скиллы
+                            </Button>
+                        </Link>
+                        <Link href={"#projects"}>
+                            <Button colorScheme="whiteAlpha" variant="ghost">
+                                Проекты
+                            </Button>
+                        </Link>
                     </Flex>
                 </Flex>
             </Container>

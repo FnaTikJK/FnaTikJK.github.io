@@ -71,7 +71,7 @@ const SimpleCarousel = () => {
 
     return (
         <Box maxW="1200px" mx="auto" p={4}>
-            <Heading textAlign="center" mb={8} color="white" size="xl">
+            <Heading textAlign="center" mb={8} color="white" size="xl" id={"projects"}>
                 Мои проекты
             </Heading>
 

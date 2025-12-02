@@ -64,7 +64,7 @@ const Skills = () => {
     ];
 
     return (
-        <Box maxW="1200px" mx="auto" p={4} textColor={"white"}>
+        <Box maxW="1200px" mx="auto" p={4} textColor={"white"} id={"skills"}>
             {/* Заголовок таблицы (опционально) */}
             <Heading textAlign="center" mb={8} size="lg">
                 Мои скиллы
